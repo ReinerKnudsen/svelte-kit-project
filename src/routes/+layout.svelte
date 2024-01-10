@@ -1,21 +1,11 @@
-<header class="layout-header">Header</header>
+<script>
+	import Header from '$lib/header.svelte';
+	import Footer from '$lib/footer.svelte';
+</script>
+
+<Header />
 <slot />
-<footer class="layout-footer">Footer</footer>
+<Footer />
 
 <style>
-	.layout-header {
-		background: #264653;
-		color: #f4a261;
-		font-size: 30px;
-		text-align: center;
-		padding: 10px;
-	}
-
-	.layout-footer {
-		background: #264653;
-		color: #e9c46a;
-		font-size: 30px;
-		text-align: center;
-		padding: 10px;
-	}
 </style>
